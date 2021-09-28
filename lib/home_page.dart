@@ -18,6 +18,16 @@ class HomePage extends StatelessWidget {
             height: MediaQuery.of(context).size.height / 5,
             decoration: BoxDecoration(
                 color: Colors.pink, borderRadius: BorderRadius.circular(15.0)),
+            child: Column(
+              children: [
+                Container(
+                  child: Image.asset(
+                      "images/1000emote1.png",
+                    width: MediaQuery.of(context).size.width/5,
+                  ),
+                ),
+              ],
+            ),
           ),
         ));
   }
